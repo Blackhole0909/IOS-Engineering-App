@@ -1,0 +1,14 @@
+name: Applied Engineering
+packages:
+    SwiftyPing:
+        url: "https://github.com/samiyr/SwiftyPing"
+        from: 1.0.0
+targets:
+    Applied Engineering:
+        type: application
+        platform: iOS
+        deploymentTarget: 14.0
+        sources: [Applied Engineering]
+        settings:
+            PRODUCT_BUNDLE_IDENTIFIER: com.applied-engineering.Applied-Engineering
+            TARGETED_DEVICE_FAMILY: 1
